@@ -72,7 +72,7 @@ namespace Kneat_Challenge
             try
             {
                 Console.Clear();
-                Console.WriteLine("Your results for a travel distance of " + Distance + " Are:");
+                Console.WriteLine("Your results for a travel distance of " + Distance + " are:");
                 Console.WriteLine("");
                 foreach (ResultData rd in Results)
                 {
@@ -121,7 +121,7 @@ namespace Kneat_Challenge
         /// <summary>
         /// Builds the results for later output to the console window
         /// </summary>
-        /// <param name="Distance"></param>
+        /// <param name="Distance">The distance that the starship needs to travel</param>
         private static void CalculateReturnValues(long Distance)
         {
             string ShipName = "";
@@ -153,10 +153,10 @@ namespace Kneat_Challenge
         /// <summary>
         /// Calculates the number of supply stops required for each of the starships
         /// </summary>
-        /// <param name="Distance"></param>
-        /// <param name="MGLT"></param>
-        /// <param name="ConsumablesHours"></param>
-        /// <returns></returns>
+        /// <param name="Distance">The distance that the starship needs to travel</param>
+        /// <param name="MGLT">The Maximum number of Megalights this starship can travel in a standard hour. A "Megalight" is a standard unit of distance and has never been defined before within the Star Wars universe. This figure is only really useful for measuring the difference in speed of starships. We can assume it is similar to AU, the distance between our Sun (Sol) and Earth.</param>
+        /// <param name="ConsumablesHours">The maximum length of time (in hours) that this starship can provide consumables for its entire crew without having to resupply</param>
+        /// <returns>The number of times the starship will need to re-supply to enable it to get to it's destination</returns>
         private static Int64 ReturnSupplyStopCount(long Distance, long MGLT, int ConsumablesHours)
         {
             Int64 StopCount = 0;
@@ -174,8 +174,8 @@ namespace Kneat_Challenge
         /// <summary>
         /// Converts the consumables string into a usable nummber of hours
         /// </summary>
-        /// <param name="Consumables"></param>
-        /// <returns></returns>
+        /// <param name="Consumables">The maximum length of time that this starship can provide consumables for its entire crew without having to resupply</param>
+        /// <returns>The number of hours that the starship can provide consumables for its entire crew without having to resupply</returns>
         private static int ConvertToHours(string Consumables)
         {
             int Hours = 0;

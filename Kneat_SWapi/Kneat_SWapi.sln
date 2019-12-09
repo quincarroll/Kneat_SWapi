@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kneat_SWapi", "Kneat_SWapi\Kneat_SWapi.csproj", "{AFF8B343-D261-45B9-9E70-8C353779E64C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kneat_SWapi_UT", "Kneat_SWapi_UT\Kneat_SWapi_UT.csproj", "{56B94EA4-3E99-475F-A2F7-B1FE847324C1}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{AFF8B343-D261-45B9-9E70-8C353779E64C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFF8B343-D261-45B9-9E70-8C353779E64C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFF8B343-D261-45B9-9E70-8C353779E64C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{56B94EA4-3E99-475F-A2F7-B1FE847324C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{56B94EA4-3E99-475F-A2F7-B1FE847324C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{56B94EA4-3E99-475F-A2F7-B1FE847324C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{56B94EA4-3E99-475F-A2F7-B1FE847324C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
